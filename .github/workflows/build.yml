@@ -5,6 +5,7 @@ on:
       - main
       - branch-*
       - sample2
+      - aayush
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
