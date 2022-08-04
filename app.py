@@ -3,11 +3,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return ('html')
+    return ('html page')
 
 @app.route('/page')
 def page():
-    return ("Noob page")
+    return ("page 1.0")
 
 #run server
 if __name__ == '__main__':
