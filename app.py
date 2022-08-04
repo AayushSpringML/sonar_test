@@ -7,7 +7,7 @@ def home():
 
 @app.route('/page')
 def page():
-    return ("page 1.0 sample2 branch")
+    return ("page 1.0 sample2 branch 2.0")
 
 #run server
 if __name__ == '__main__':
