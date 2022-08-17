@@ -3,10 +3,10 @@ on:
   push:
     branches:
       - main
-      - branch-*
-      - sample2
-      - aayush
+      - UAT/*
       - feature/*
+      - release/*
+      - develop
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
